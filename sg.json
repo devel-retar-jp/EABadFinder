@@ -1,0 +1,27 @@
+{
+  //Consumer API keys (API key)
+  "ConsumerKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  //Consumer API keys (API secret key)
+  "ConsumerSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  //Access token & access token secret  (Access token)
+  "AccessToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  //Access token & access token secret  (Access token secret)
+  "AccessSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  //最大取得回数(15回） 1回5000フォロワー
+  //https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-friends-list
+  "count": 200,
+  //取得インターバル 秒単位*1000
+  "sleeptime": 60500,
+  //取得ID数 MAX 5000
+  "parm_count": 5000,
+  //The screen name of the user for whom to return results.
+  "parm_screen_name": "@XXXXXXX",
+  //カーソル位置
+  "parm_cursor": "",
+  //出力ファイル
+  "OutFileNameGrayFollowersIds": "GrayFollowersIds.csv",
+  //日付
+  "datespan": -365,
+  //コンソール出力制御  false:出さない/true:出す
+  "OutConsole": false
+}
